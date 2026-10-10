@@ -1,0 +1,9 @@
+{
+	"id": "sync-guard",
+	"name": "Sync Guard",
+	"version": "0.1.0",
+	"minAppVersion": "1.14.4",
+	"description": "Warn when a note suddenly loses lines, text, or headings after a sync or an outside edit. Never changes your notes.",
+	"author": "takosasi-dev",
+	"isDesktopOnly": false
+}

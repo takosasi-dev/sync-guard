@@ -1,0 +1,27 @@
+/* Sync Guard: 詳細の表と、一覧の行 */
+.sync-guard-table td,
+.sync-guard-table th {
+	padding: 2px 12px 2px 0;
+	text-align: right;
+}
+
+.sync-guard-table td:first-child {
+	text-align: left;
+}
+
+.sync-guard-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 6px;
+	padding: 6px 10px;
+	text-align: left;
+	white-space: normal;
+}
+
+.sync-guard-path {
+	font-weight: var(--font-semibold);
+}
